@@ -5,7 +5,7 @@ const cors = require('cors');
 const hodRoutes = require('./routes/hod');
 const studentRoutes = require('./routes/students');
 
-// Initialize the Express app
+// Initialize the Express app helo
 const app = express();
 app.use(bodyParser.json());
 app.use(cors()); // Allow cross-origin requests
