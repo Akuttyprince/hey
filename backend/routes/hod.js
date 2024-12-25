@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const HOD = require('../models/HOD');
 
-const app = express();
 // Route to create an HOD
 router.post('/add', async (req, res) => {
   const { name, email, password } = req.body;
